@@ -30,7 +30,8 @@ nav a:hover {
 }
 
 article {
-    margin: 5em auto 0;
+    border: 1px solid orange;
+    margin: 1em auto 0;
     padding: 1em;
     font-size: 140%;
     max-width: 800px;
@@ -45,6 +46,7 @@ article p {
 
 article p + p {
     margin-top: .7em;
+
 }
 
 footer{
@@ -59,8 +61,12 @@ footer{
 }
 
 .barra {
-    position: sticky;
-    top: 0;
+    position: static;
+    top: 10px;
     box-shadow: rgba(0,0,0,.05) 0 3px 15px;
     width: 100%;
 }
+
+.pagina{
+   display: flex;
+   
