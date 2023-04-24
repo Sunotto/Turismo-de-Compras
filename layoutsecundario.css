@@ -66,7 +66,36 @@ footer{
     box-shadow: rgba(0,0,0,.05) 0 3px 15px;
     width: 100%;
 }
-
-.pagina{
-   display: flex;
    
+.pagina{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 5rem;
+    padding-top: 100px;
+
+}
+
+.sidebar{
+    border: 1px solid blue;
+    width: 350px;
+    height: 600px;
+    order: 2;
+
+}
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:600px;
+    width:350px;
+
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:600px;
+    width:350px;
+
+}
