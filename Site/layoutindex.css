@@ -52,12 +52,13 @@ article {
     max-width: 800px;
     background: white;
     box-shadow: rgba(0,0,0,.05) 5px 3px 15px;
-    margin-bottom: 100px;;
+    margin-bottom: 100px;
 }
 
 article p {
     margin: 0;
     color: #333;
+    text-align: justify;
 }
 
 article p + p {
