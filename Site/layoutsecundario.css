@@ -98,7 +98,6 @@ footer{
 }
    
 .pagina{
-    /*border: 1px solid #ffffff;*/
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -126,6 +125,11 @@ footer{
     border-radius: 10px;
 }
 
+img {
+    height:400px;
+    width:700px;
+}
+
 @media (max-width: 1500px){
     .sidebar{
         display: none;
@@ -138,6 +142,4 @@ footer{
 #rodape {
     bottom: 0;
     border: 1px solid #d49b45;
-
-
 }
