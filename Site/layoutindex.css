@@ -52,6 +52,7 @@ article {
     max-width: 800px;
     background: white;
     box-shadow: rgba(0,0,0,.05) 5px 3px 15px;
+    margin-bottom: 100px;;
 }
 
 article p {
@@ -80,6 +81,7 @@ footer{
     box-shadow: rgba(0,0,0,.05) 0 3px 15px;
     width: 100%;
 }
+
 
 .dropdown-content {
     display: none;
