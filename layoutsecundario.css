@@ -6,7 +6,7 @@ body{
 
 nav ul {
     list-style-type: none;
-    background-color:#183A1D;
+    background-color:#d49b45;
     overflow: hidden;
     padding: 0;
     margin: 0;
@@ -25,16 +25,17 @@ nav li {
 
 nav a:hover {
     background-color: white;
-    color: #183A1D;
-    border-bottom: 1px solid #183A1D;
+    color: #d49b45;
+    border-bottom: 1px solid #d49b45;
 }
 
 article {
-    border: 1px solid orange;
+    border: 1px solid rgb(0, 255, 149);
     margin: 1em auto 0;
     padding: 1em;
     font-size: 140%;
-    max-width: 800px;
+    max-width: 1200px;
+    min-width: 700px;
     background: white;
     box-shadow: rgba(0,0,0,.05) 5px 3px 15px;
 }
@@ -50,6 +51,7 @@ article p + p {
 }
 
 footer{
+    bottom: 0;
     font-size: 11px;
 }
 
@@ -70,32 +72,47 @@ footer{
 .pagina{
     border: 1px solid red;
     display: flex;
-    justify-content: center;
-    align-items: baseline;
+    justify-content: space-between;
+    align-items: flex-start;
     gap: 5rem;
     padding-top: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
 
 }
 
 .sidebar{
-    border: 1px solid blue;
+    border-radius: 20px;
+    border: 10px solid white;
     width: 350px;
     height: 600px;
+    box-shadow: rgba(0,0,0,.05) 5px 3px 15px;
     order: 2;
 
 }
-.mapouter{
-    position:relative;
-    text-align:right;
-    height:600px;
-    width:350px;
 
-}
 
 .gmap_canvas {
     overflow:hidden;
     background:none!important;
     height:600px;
     width:350px;
+    border-radius: 10px;
+
+}
+
+@media (max-width: 1500px){
+    .sidebar{
+        display: none;
+    
+    }
+
+
+}
+
+#rodape{
+    bottom: 0;
+    border: 1px solid purple;
+
 
 }
