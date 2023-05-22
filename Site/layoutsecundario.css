@@ -40,9 +40,8 @@ nav a:hover {
 }
 
 article {
-    border: 1px solid #d49b45;
     margin: 1em auto 0;
-    padding: 1em;
+    padding: 1.5em;
     font-size: 140%;
     max-width: 1200px;
     min-width: 700px;
@@ -104,7 +103,7 @@ footer{
     align-items: flex-start;
     gap: 5rem;
     padding-top: 100px;
-    padding-left: 300px;
+    padding-left: 7rem;
     padding-right: 300px;
     padding-bottom: 100px;
 }
@@ -132,7 +131,7 @@ img {
     width:700px;
 }
 
-@media (max-width: 1500px){
+@media (max-width: 1000px){
     .sidebar{
         display: none;
     }
