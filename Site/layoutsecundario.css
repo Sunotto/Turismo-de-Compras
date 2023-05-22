@@ -52,7 +52,6 @@ article {
 article p {
     margin: 0;
     color: #000000;
-    text-align: justify;
 }
 
 article p + p {
