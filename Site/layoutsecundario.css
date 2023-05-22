@@ -20,6 +20,7 @@ nav ul {
     overflow: hidden;
     padding: 0;
     margin: 0;
+    
 }
 
 nav a {
@@ -36,18 +37,16 @@ nav li {
 nav a:hover {
     background-color: white;
     color: #d49b45;
-    border-bottom: 1px solid #d49b45;
 }
 
 article {
-    border: 1px solid #d49b45;
     margin: 1em auto 0;
     padding: 1em;
     font-size: 140%;
     max-width: 1200px;
     min-width: 700px;
     background: white;
-    box-shadow: rgba(0,0,0,.05) 5px 3px 15px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0 2px 15px;
 }
 
 article p {
@@ -104,7 +103,7 @@ footer{
     align-items: flex-start;
     gap: 5rem;
     padding-top: 100px;
-    padding-left: 300px;
+    padding-left: 7rem;
     padding-right: 300px;
     padding-bottom: 100px;
 }
@@ -132,7 +131,7 @@ img {
     width:700px;
 }
 
-@media (max-width: 1500px){
+@media (max-width: 100px){
     .sidebar{
         display: none;
     }

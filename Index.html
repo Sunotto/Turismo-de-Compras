@@ -5,7 +5,6 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="site/layoutindex.css" type="text/css">
-        <link rel="stylesheet" href="site/carousel.css" type="text/css">
         <link rel="shortcut icon" href="Site/Imagens/compras.ico" type="image/x-icon">
     </head>
     <body>
@@ -17,7 +16,15 @@
             <nav class="header-btn">
                 <ul>
                     <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="site/caxiasdosul.html">Cidades</a></li>
+                    <li class="dropdown">
+                        <a href="#">Cidades</a>
+                        <ul class="dropdown-content">
+                            <li><a href="Site/bento.html">Bento Gonçalves</a></li>
+                            <li><a href="Site/caxiasdosul.html">Caxias do Sul</a></li>
+                            <li><a href="Site/farroupilha.html">Farroupilha</a></li>
+                            <li><a href="Site/gramado.html">Gramado</a></li>
+                        </ul>
+                    </li>
                     <li><a href="#mapa">Mapa</a></li>
                 </ul>
             </nav>
@@ -45,9 +52,12 @@
         <section class="cidades">
             
         </section>
-        <section class="mapa">
-            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=11x_VGXF4njPZpN1fmXUp1jKV2UQTWn0&ehbc=2E312F" width="640" height="480"></iframe>
-        </section>
+
+        <div class="mapa">
+            <a href="https://www.google.com/maps/d/u/0/edit?mid=11x_VGXF4njPZpN1fmXUp1jKV2UQTWn0&usp=sharing"><img src="imagens/mapacidades.png"></a>
+            <img src="Imagens/mapacidades.png">
+        </div>
+
         <footer>
             <nav>
                 <ul>
